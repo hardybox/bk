@@ -22,7 +22,7 @@ DATABASES = {
         'NAME': 'mgl-helloword',                        # 数据库名 (默认与APP_ID相同)
         'USER': 'root',                        # 你的数据库user
         'PASSWORD': '123456',                        # 你的数据库password
-        'HOST': '127.0.0.1',                   # 开发的时候，使用localhost
+        'HOST': '172.50.21.22',                   # 开发的时候，使用localhost
         'PORT': '3306',                        # 默认3306
     },
 }
