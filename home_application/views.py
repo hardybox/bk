@@ -10,13 +10,14 @@ See the License for the specific language governing permissions and limitations 
 """
 
 from common.mymako import render_mako_context
-
+from django.http import HttpResponse
 
 def home(request):
     """
     首页
     """
-    return render_mako_context(request, '/home_application/home.html')
+    #return render_mako_context(request, '/home_application/home.html')
+    return HttpResponse("Hello World! MoGuoliang is comming!", status=200)
 
 
 def dev_guide(request):

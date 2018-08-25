@@ -28,12 +28,15 @@ from django.conf.global_settings import *  # noqa
 
 # ==============================================================================
 # 应用基本信息配置 (请按照说明修改)
-# ===========================================================================p===
+# ==============================================================================
 # 在蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 中获取 APP_ID 和 APP_TOKEN 的值
-APP_ID = 'mgl-helloword'
-APP_TOKEN = '50883168-462e-4340-bd19-484f707f62fe'
+APP_ID = 'mglhelloword'
+APP_TOKEN = '090c6dcd-3639-4e98-9784-b5c5e92c8997'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
-BK_PAAS_HOST = 'http://paas.blueking.com'
+BK_PAAS_HOST = 'http://paas.blueking.com:80'
+
+# 请求官方 API 默认版本号，可选值为："v2" 或 ""；其中，"v2"表示规范化API，""表示未规范化API
+DEFAULT_BK_API_VER = 'v2'
 
 # 是否启用celery任务
 IS_USE_CELERY = True
@@ -116,7 +119,6 @@ INSTALLED_APPS = (
     'app_control',
     'account',
     'home_application',
-    'helloworld',
 )
 
 # ==============================================================================
