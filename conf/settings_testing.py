@@ -22,7 +22,7 @@ DATABASES = {
         'NAME': 'mglhw_t',                        # 数据库名 (默认与APP_ID相同)
         'USER': 'mglhw_t',                            # 你的数据库user
         'PASSWORD': '123456',                        # 你的数据库password
-        'HOST': '172.50.19.24',                   		   # 数据库HOST
+        'HOST': '172.50.19.25',                   		   # 数据库HOST
         'PORT': '3306',                        # 默认3306
     },
 }
