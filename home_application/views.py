@@ -16,8 +16,8 @@ def home(request):
     """
     首页
     """
-    #return render_mako_context(request, '/home_application/home.html')
-    return HttpResponse("Hello World! MoGuoliang is comming!", status=200)
+    return render_mako_context(request, '/home_application/home.html')
+
 
 
 def dev_guide(request):
@@ -32,3 +32,9 @@ def contactus(request):
     联系我们
     """
     return render_mako_context(request, '/home_application/contact.html')
+
+def helloword(request):
+    """
+    helloword page
+    """
+    return HttpResponse("Hello World! MoGuoliang is comming!", status=200)

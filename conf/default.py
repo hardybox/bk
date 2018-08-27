@@ -30,8 +30,8 @@ from django.conf.global_settings import *  # noqa
 # 应用基本信息配置 (请按照说明修改)
 # ==============================================================================
 # 在蓝鲸智云开发者中心 -> 点击应用ID -> 基本信息 中获取 APP_ID 和 APP_TOKEN 的值
-APP_ID = 'mglhelloword'
-APP_TOKEN = '090c6dcd-3639-4e98-9784-b5c5e92c8997'
+APP_ID = 'mglhw'
+APP_TOKEN = '21439e6b-4eaf-48d3-b97d-9a9a066c9206'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
 BK_PAAS_HOST = 'http://paas.blueking.com:80'
 
